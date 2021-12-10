@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Networking">
         <activity
+            android:name=".ParseJsonArrayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParseJsonActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
