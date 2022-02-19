@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
             val activity = Intent(this,ParseJsonActivity::class.java)
             startActivity(activity)
         }
+        binding.toParsingJsonArray.setOnClickListener {
+            val activity = Intent(this,ParseJsonArrayActivity::class.java)
+            startActivity(activity)
+        }
     }
 }

@@ -15,5 +15,12 @@
         android:layout_marginBottom="10dp"
         android:text="@string/to_loopj_parsing_json" />
 
+    <Button
+        android:id="@+id/to_parsing_json_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/to_loopj_parsing_json_array" />
+
 
 </LinearLayout>

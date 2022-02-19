@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Networking">
         <activity
+            android:name=".ListQuotesActivity"
+            android:exported="false" />
+        <activity
             android:name=".ParseJsonArrayActivity"
             android:exported="false" />
         <activity

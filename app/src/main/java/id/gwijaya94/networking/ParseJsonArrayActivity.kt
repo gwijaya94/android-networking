@@ -1,5 +1,6 @@
 package id.gwijaya94.networking
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -18,6 +19,10 @@ class ParseJsonArrayActivity : AppCompatActivity() {
         binding = ActivityParseJsonArrayBinding.inflate(layoutInflater)
         setContentView(binding.root)
         getRandomQuote()
+
+        binding.btnAllQuotes.setOnClickListener {
+            startActivity(Intent(this, ListQuotesActivity::class.java))
+        }
     }
 
     private fun getRandomQuote() {
